@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE age > 15 AND email = "diego@hotmail.com";
