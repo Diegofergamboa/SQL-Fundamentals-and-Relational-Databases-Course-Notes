@@ -1,3 +1,5 @@
 -- Search the oldest user
 
-SELECT * FROM users;
+SELECT MAX(age) FROM users;
+
+SELECT MIN(age) FROM users;
